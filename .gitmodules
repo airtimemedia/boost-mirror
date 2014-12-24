@@ -96,7 +96,7 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "thread"]
 	path = libs/thread
-	url = git@github.com:boostorg/thread.git
+	url = git@github.com:airtimemedia/boost-thread.git
 	fetchRecurseSubmodules = on-demand
 [submodule "tokenizer"]
 	path = libs/tokenizer
