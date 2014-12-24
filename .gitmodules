@@ -328,7 +328,7 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "asio"]
 	path = libs/asio
-	url = git@github.com:boostorg/asio.git
+	url = git@github.com:airtimemedia/boost-asio.git
 	fetchRecurseSubmodules = on-demand
 [submodule "uuid"]
 	path = libs/uuid
