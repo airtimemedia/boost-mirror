@@ -22,6 +22,6 @@ tar -c --exclude '.git*' --exclude "boost-release" --exclude "jenkins.sh" --excl
 # push the new release
 cd boost-release
 git add .
-git commit -am "boost-release build $VERSION"
+git commit -am "boost-release build $BUILD_NUMBER"
 git push
 
