@@ -398,6 +398,10 @@
 	path = libs/coroutine
 	url = git@github.com:boostorg/coroutine.git
 	fetchRecurseSubmodules = on-demand
+[submodule "coroutine2"]
+	path = libs/coroutine2
+	url = ../coroutine2.git
+	fetchRecurseSubmodules = on-demand
 [submodule "ratio"]
 	path = libs/ratio
 	url = git@github.com:boostorg/ratio.git
@@ -481,4 +485,16 @@
 [submodule "lexical_cast"]
 	path = libs/lexical_cast
 	url = git@github.com:boostorg/lexical_cast.git
+	fetchRecurseSubmodules = on-demand
+[submodule "sort"]
+	path = libs/sort
+	url = ../sort.git
+	branch = master
+[submodule "convert"]
+	path = libs/convert
+	url = ../convert.git
+	branch = develop
+[submodule "endian"]
+	path = libs/endian
+	url = ../endian.git
 	fetchRecurseSubmodules = on-demand
