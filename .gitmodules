@@ -400,7 +400,7 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "coroutine2"]
 	path = libs/coroutine2
-	url = ../coroutine2.git
+	url = git@github.com:boostorg/coroutine2.git
 	fetchRecurseSubmodules = on-demand
 [submodule "ratio"]
 	path = libs/ratio
@@ -488,13 +488,13 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "sort"]
 	path = libs/sort
-	url = ../sort.git
+	url = git@github.com:boostorg/sort.git
 	branch = master
 [submodule "convert"]
 	path = libs/convert
-	url = ../convert.git
+	url = git@github.com:boostorg/convert.git
 	branch = develop
 [submodule "endian"]
 	path = libs/endian
-	url = ../endian.git
+	url = git@github.com:boostorg/endian.git
 	fetchRecurseSubmodules = on-demand
