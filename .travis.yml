@@ -1,8 +1,0 @@
-language: c
-compiler:
-  - gcc
-script:
-  - ./bootstrap.sh
-  - ./b2 -n
-  - cd status
-  - ../b2 -n -d0
