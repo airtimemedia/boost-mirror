@@ -3,6 +3,9 @@
 # echo our commands so we can see what's happening
 set -x
 
+# fail on error
+set -e
+
 # clean up any gunk
 rm -rf boost-release
 
