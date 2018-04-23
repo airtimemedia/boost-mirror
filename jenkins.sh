@@ -8,6 +8,7 @@ rm -rf boost-release
 
 # prep boost
 git submodule update --init --recursive
+VERSIONS="`./versions.sh`"  # get all library versions
 ./bootstrap.sh
 ./b2 headers
 
@@ -22,6 +23,15 @@ tar -c --exclude '.git*' --exclude "boost-release" --exclude "jenkins.sh" --excl
 # push the new release
 cd boost-release
 git add .
-git commit -am "boost-release build $BUILD_NUMBER"
+
+git commit -a -F- <<EOF
+boost-release build $BUILD_NUMBER
+
+Build URL: ${BUILD_URL}
+
+Versions:
+$VERSIONS
+EOF
+
 git push
 
