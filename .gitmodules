@@ -132,7 +132,7 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "test"]
 	path = libs/test
-	url = git@github.com:boostorg/test.git
+	url = git@github.com:airtimemedia/boost-test.git
 	fetchRecurseSubmodules = on-demand
 [submodule "date_time"]
 	path = libs/date_time
