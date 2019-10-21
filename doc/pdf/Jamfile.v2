@@ -44,11 +44,10 @@ install pdf-install
     ../../libs/chrono/doc//standalone
     ../../libs/concept_check/doc//concepts 
     ../../libs/config/doc//standalone 
-    ../../libs/context/doc//standalone
-    #../../libs/container/doc//pdfinstall 
-    ../../libs/conversion/doc//standalone
-    ../../libs/coroutine/doc//standalone
-    ../../libs/date_time/xmldoc//date_time 
+    ../../libs/context/doc//context
+    ../../libs/core/doc//standalone
+    ../../libs/date_time/xmldoc//date_time
+    ../../libs/dll/doc//dll-doc 
     ../../libs/foreach/doc//standalone 
     ../../libs/function/doc//function-doc 
     ../../libs/functional/factory/doc//standalone
