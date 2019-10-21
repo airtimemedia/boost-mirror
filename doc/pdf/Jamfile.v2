@@ -59,7 +59,7 @@ install pdf-install
     ../../libs/integer/doc//standalone
     ../../libs/iterator/doc//standalone
     ../../libs/lambda/doc//lambda-doc
-    ../../libs/lockfree/doc//
+    ../../libs/lockfree/doc//standalone
     ../../libs/lexical_cast/doc//standalone
 #    ../../libs/local_function/doc//doc
     ../../libs/logic/doc//tribool
@@ -74,7 +74,7 @@ install pdf-install
     ../../libs/proto/doc//standalone
     # Invalid Jamfile, doesn't use Boostbook anyway??
     #../../libs/ptr_container/doc//standalone
-    ../../libs/ratio/doc//
+    ../../libs/ratio/doc//standalone
     ../../libs/random/doc//standalone
     ../../libs/regex/doc//standalone
     ../../libs/signals/doc//doc
@@ -290,6 +290,11 @@ install log_install
     <format>pdf
     <name>log.pdf
 ;
+
+
+
+
+
 
 
 
