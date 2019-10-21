@@ -1,6 +1,6 @@
 [submodule "system"]
 	path = libs/system
-	url = git@github.com:boostorg/system.git
+	url = ../system.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "multi_array"]
