@@ -2,483 +2,739 @@
 	path = libs/system
 	url = git@github.com:boostorg/system.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "multi_array"]
 	path = libs/multi_array
 	url = git@github.com:boostorg/multi_array.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "math"]
 	path = libs/math
 	url = git@github.com:boostorg/math.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "smart_ptr"]
 	path = libs/smart_ptr
 	url = git@github.com:boostorg/smart_ptr.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "parameter"]
 	path = libs/parameter
 	url = git@github.com:boostorg/parameter.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "algorithm"]
 	path = libs/algorithm
 	url = git@github.com:boostorg/algorithm.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "any"]
 	path = libs/any
 	url = git@github.com:boostorg/any.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "concept_check"]
 	path = libs/concept_check
 	url = git@github.com:boostorg/concept_check.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "python"]
 	path = libs/python
 	url = git@github.com:boostorg/python.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "tti"]
 	path = libs/tti
 	url = git@github.com:boostorg/tti.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "functional"]
 	path = libs/functional
 	url = git@github.com:boostorg/functional.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "config"]
 	path = libs/config
 	url = git@github.com:boostorg/config.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "log"]
 	path = libs/log
 	url = git@github.com:boostorg/log.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "interprocess"]
 	path = libs/interprocess
 	url = git@github.com:boostorg/interprocess.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "exception"]
 	path = libs/exception
 	url = git@github.com:boostorg/exception.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "foreach"]
 	path = libs/foreach
 	url = git@github.com:boostorg/foreach.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "spirit"]
 	path = libs/spirit
 	url = git@github.com:boostorg/spirit.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "io"]
 	path = libs/io
 	url = git@github.com:boostorg/io.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "disjoint_sets"]
 	path = libs/disjoint_sets
 	url = git@github.com:boostorg/disjoint_sets.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "units"]
 	path = libs/units
 	url = git@github.com:boostorg/units.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "preprocessor"]
 	path = libs/preprocessor
 	url = git@github.com:boostorg/preprocessor.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "format"]
 	path = libs/format
 	url = git@github.com:boostorg/format.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "xpressive"]
 	path = libs/xpressive
 	url = git@github.com:boostorg/xpressive.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "integer"]
 	path = libs/integer
 	url = git@github.com:boostorg/integer.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "thread"]
 	path = libs/thread
 	url = git@github.com:airtimemedia/boost-thread.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "tokenizer"]
 	path = libs/tokenizer
 	url = git@github.com:boostorg/tokenizer.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "timer"]
 	path = libs/timer
 	url = git@github.com:boostorg/timer.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "inspect"]
 	path = tools/inspect
 	url = git@github.com:boostorg/inspect.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "boostbook"]
 	path = tools/boostbook
 	url = git@github.com:boostorg/boostbook.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "regex"]
 	path = libs/regex
 	url = git@github.com:boostorg/regex.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "crc"]
 	path = libs/crc
 	url = git@github.com:boostorg/crc.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "random"]
 	path = libs/random
 	url = git@github.com:boostorg/random.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "serialization"]
 	path = libs/serialization
 	url = git@github.com:boostorg/serialization.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "test"]
 	path = libs/test
 	url = git@github.com:airtimemedia/boost-test.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "date_time"]
 	path = libs/date_time
 	url = git@github.com:boostorg/date_time.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "logic"]
 	path = libs/logic
 	url = git@github.com:boostorg/logic.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "graph"]
 	path = libs/graph
 	url = git@github.com:boostorg/graph.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "numeric_conversion"]
 	path = libs/numeric/conversion
 	url = git@github.com:boostorg/numeric_conversion.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "lambda"]
 	path = libs/lambda
 	url = git@github.com:boostorg/lambda.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "mpl"]
 	path = libs/mpl
 	url = git@github.com:boostorg/mpl.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "typeof"]
 	path = libs/typeof
 	url = git@github.com:boostorg/typeof.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "tuple"]
 	path = libs/tuple
 	url = git@github.com:boostorg/tuple.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "utility"]
 	path = libs/utility
 	url = git@github.com:boostorg/utility.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "dynamic_bitset"]
 	path = libs/dynamic_bitset
 	url = git@github.com:boostorg/dynamic_bitset.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "assign"]
 	path = libs/assign
 	url = git@github.com:boostorg/assign.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "filesystem"]
 	path = libs/filesystem
 	url = git@github.com:airtimemedia/filesystem.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "function"]
 	path = libs/function
 	url = git@github.com:boostorg/function.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "conversion"]
 	path = libs/conversion
 	url = git@github.com:boostorg/conversion.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "optional"]
 	path = libs/optional
 	url = git@github.com:boostorg/optional.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "property_tree"]
 	path = libs/property_tree
 	url = git@github.com:boostorg/property_tree.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "bimap"]
 	path = libs/bimap
 	url = git@github.com:boostorg/bimap.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "variant"]
 	path = libs/variant
 	url = git@github.com:boostorg/variant.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "array"]
 	path = libs/array
 	url = git@github.com:boostorg/array.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "iostreams"]
 	path = libs/iostreams
 	url = git@github.com:boostorg/iostreams.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "multi_index"]
 	path = libs/multi_index
 	url = git@github.com:boostorg/multi_index.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "bcp"]
 	path = tools/bcp
 	url = git@github.com:boostorg/bcp.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "ptr_container"]
 	path = libs/ptr_container
 	url = git@github.com:boostorg/ptr_container.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "statechart"]
 	path = libs/statechart
 	url = git@github.com:boostorg/statechart.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "static_assert"]
 	path = libs/static_assert
 	url = git@github.com:boostorg/static_assert.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "range"]
 	path = libs/range
 	url = git@github.com:boostorg/range.git
 	fetchRecurseSubmodules = on-demand
-[submodule "signals"]
-	path = libs/signals
-	url = git@github.com:boostorg/signals.git
-	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "rational"]
 	path = libs/rational
 	url = git@github.com:boostorg/rational.git
 	fetchRecurseSubmodules = on-demand
-[submodule "tr1"]
-	path = libs/tr1
-	url = git@github.com:boostorg/tr1.git
-	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "iterator"]
 	path = libs/iterator
 	url = git@github.com:boostorg/iterator.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "build"]
 	path = tools/build
 	url = git@github.com:boostorg/build.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "quickbook"]
 	path = tools/quickbook
 	url = git@github.com:boostorg/quickbook.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "graph_parallel"]
 	path = libs/graph_parallel
 	url = git@github.com:boostorg/graph_parallel.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "property_map"]
 	path = libs/property_map
 	url = git@github.com:boostorg/property_map.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "program_options"]
 	path = libs/program_options
 	url = git@github.com:boostorg/program_options.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "detail"]
 	path = libs/detail
 	url = git@github.com:boostorg/detail.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "interval"]
 	path = libs/numeric/interval
 	url = git@github.com:boostorg/interval.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "ublas"]
 	path = libs/numeric/ublas
 	url = git@github.com:boostorg/ublas.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "wave"]
 	path = libs/wave
 	url = git@github.com:boostorg/wave.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "type_traits"]
 	path = libs/type_traits
 	url = git@github.com:boostorg/type_traits.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "compatibility"]
 	path = libs/compatibility
 	url = git@github.com:boostorg/compatibility.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "bind"]
 	path = libs/bind
 	url = git@github.com:boostorg/bind.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "pool"]
 	path = libs/pool
 	url = git@github.com:boostorg/pool.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "proto"]
 	path = libs/proto
 	url = git@github.com:boostorg/proto.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "fusion"]
 	path = libs/fusion
 	url = git@github.com:boostorg/fusion.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "function_types"]
 	path = libs/function_types
 	url = git@github.com:boostorg/function_types.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "gil"]
 	path = libs/gil
 	url = git@github.com:boostorg/gil.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "intrusive"]
 	path = libs/intrusive
 	url = git@github.com:boostorg/intrusive.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "asio"]
 	path = libs/asio
 	url = git@github.com:airtimemedia/boost-asio.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "uuid"]
 	path = libs/uuid
 	url = git@github.com:boostorg/uuid.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "litre"]
 	path = tools/litre
 	url = git@github.com:boostorg/litre.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "circular_buffer"]
 	path = libs/circular_buffer
 	url = git@github.com:boostorg/circular_buffer.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "mpi"]
 	path = libs/mpi
 	url = git@github.com:boostorg/mpi.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "unordered"]
 	path = libs/unordered
 	url = git@github.com:boostorg/unordered.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "signals2"]
 	path = libs/signals2
 	url = git@github.com:boostorg/signals2.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "accumulators"]
 	path = libs/accumulators
 	url = git@github.com:boostorg/accumulators.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "atomic"]
 	path = libs/atomic
 	url = git@github.com:boostorg/atomic.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "scope_exit"]
 	path = libs/scope_exit
 	url = git@github.com:boostorg/scope_exit.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "flyweight"]
 	path = libs/flyweight
 	url = git@github.com:boostorg/flyweight.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "icl"]
 	path = libs/icl
 	url = git@github.com:boostorg/icl.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "predef"]
 	path = libs/predef
 	url = git@github.com:boostorg/predef.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "chrono"]
 	path = libs/chrono
 	url = git@github.com:boostorg/chrono.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "polygon"]
 	path = libs/polygon
 	url = git@github.com:boostorg/polygon.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "msm"]
 	path = libs/msm
 	url = git@github.com:boostorg/msm.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "heap"]
 	path = libs/heap
 	url = git@github.com:boostorg/heap.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "coroutine"]
 	path = libs/coroutine
 	url = git@github.com:boostorg/coroutine.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "coroutine2"]
+	path = libs/coroutine2
+	url = git@github.com:boostorg/coroutine2.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "ratio"]
 	path = libs/ratio
 	url = git@github.com:boostorg/ratio.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "odeint"]
 	path = libs/numeric/odeint
 	url = git@github.com:boostorg/odeint.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "geometry"]
 	path = libs/geometry
 	url = git@github.com:boostorg/geometry.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "phoenix"]
 	path = libs/phoenix
 	url = git@github.com:boostorg/phoenix.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "move"]
 	path = libs/move
 	url = git@github.com:boostorg/move.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "locale"]
 	path = libs/locale
 	url = git@github.com:boostorg/locale.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "auto_index"]
 	path = tools/auto_index
 	url = git@github.com:boostorg/auto_index.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "container"]
 	path = libs/container
 	url = git@github.com:boostorg/container.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "local_function"]
 	path = libs/local_function
 	url = git@github.com:boostorg/local_function.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "context"]
 	path = libs/context
 	url = git@github.com:boostorg/context.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "type_erasure"]
 	path = libs/type_erasure
 	url = git@github.com:boostorg/type_erasure.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "multiprecision"]
 	path = libs/multiprecision
 	url = git@github.com:boostorg/multiprecision.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "lockfree"]
 	path = libs/lockfree
 	url = git@github.com:boostorg/lockfree.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "assert"]
 	path = libs/assert
 	url = git@github.com:boostorg/assert.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "align"]
 	path = libs/align
 	url = git@github.com:boostorg/align.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "type_index"]
 	path = libs/type_index
 	url = git@github.com:boostorg/type_index.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "core"]
 	path = libs/core
 	url = git@github.com:boostorg/core.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "throw_exception"]
 	path = libs/throw_exception
 	url = git@github.com:boostorg/throw_exception.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "winapi"]
 	path = libs/winapi
 	url = git@github.com:boostorg/winapi.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "boostdep"]
 	path = tools/boostdep
 	url = git@github.com:boostorg/boostdep.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
 [submodule "lexical_cast"]
 	path = libs/lexical_cast
 	url = git@github.com:boostorg/lexical_cast.git
 	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "sort"]
+	path = libs/sort
+	url = git@github.com:boostorg/sort.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "convert"]
+	path = libs/convert
+	url = git@github.com:boostorg/convert.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "endian"]
+	path = libs/endian
+	url = git@github.com:boostorg/endian.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "vmd"]
+	path = libs/vmd
+	url = git@github.com:boostorg/vmd.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "dll"]
+	path = libs/dll
+	url = git@github.com:boostorg/dll.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "compute"]
+	path = libs/compute
+	url = git@github.com:boostorg/compute.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "hana"]
+	path = libs/hana
+	url = git@github.com:boostorg/hana.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "metaparse"]
+	path = libs/metaparse
+	url = git@github.com:boostorg/metaparse.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "qvm"]
+	path = libs/qvm
+	url = git@github.com:boostorg/qvm.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "fiber"]
+	path = libs/fiber
+	url = git@github.com:boostorg/fiber.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "process"]
+	path = libs/process
+	url = git@github.com:boostorg/process.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "stacktrace"]
+	path = libs/stacktrace
+	url = git@github.com:boostorg/stacktrace.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "poly_collection"]
+	path = libs/poly_collection
+	url = git@github.com:boostorg/poly_collection.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "beast"]
+	path = libs/beast
+	url = git@github.com:boostorg/beast.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "mp11"]
+	path = libs/mp11
+	url = git@github.com:boostorg/mp11.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "callable_traits"]
+	path = libs/callable_traits
+	url = git@github.com:boostorg/callable_traits.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "contract"]
+	path = libs/contract
+	url = git@github.com:boostorg/contract.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "check_build"]
+	path = tools/check_build
+	url = git@github.com:boostorg/check_build.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "container_hash"]
+	path = libs/container_hash
+	url = git@github.com:boostorg/container_hash.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "hof"]
+	path = libs/hof
+	url = git@github.com:boostorg/hof.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "yap"]
+	path = libs/yap
+	url = git@github.com:boostorg/yap.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "safe_numerics"]
+	path = libs/safe_numerics
+	url = git@github.com:boostorg/safe_numerics.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "parameter_python"]
+	path = libs/parameter_python
+	url = git@github.com:boostorg/parameter_python.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "headers"]
+	path = libs/headers
+	url = git@github.com:boostorg/headers.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "boost_install"]
+	path = tools/boost_install
+	url = git@github.com:boostorg/boost_install.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "outcome"]
+	path = libs/outcome
+	url = git@github.com:boostorg/outcome.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "histogram"]
+	path = libs/histogram
+	url = git@github.com:boostorg/histogram.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "variant2"]
+	path = libs/variant2
+	url = git@github.com:boostorg/variant2.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
