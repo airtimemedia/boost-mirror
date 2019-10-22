@@ -12,9 +12,11 @@ body  {
         margin: 1em;
         max-width : 8.5in;
       }
- 
+
 table { margin: 0.5em; }
+
 pre   { background-color:#D7EEFF }
+
 ins   { background-color:#A0FFA0 }
 del   { background-color:#FFA0A0 }
 
