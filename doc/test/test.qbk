@@ -603,6 +603,7 @@ Now try again with a sample SVG image:
 
 [$images/open_clipart_library_logo.svg]
 
+
 [endsect]
 
 [section Equations]
@@ -612,7 +613,7 @@ in Internet Explorer....
 
 This equation is formatted from Latex text:
 
-'''<inlinemediaobject><textobject role="tex">ax^2  bx  c = 0</textobject></inlinemediaobject>'''
+'''<inlinemediaobject><textobject role="tex">ax^2 + bx + c = 0</textobject></inlinemediaobject>'''
 
 This equation is formed from MathML:
 
@@ -621,7 +622,6 @@ This equation is formed from MathML:
 This equation is SVG:
 
 '''<inlinemediaobject><imageobject><imagedata format="SVG" fileref="../test.svg"></imagedata></imageobject></inlinemediaobject>'''
-
 
 
 [endsect]
