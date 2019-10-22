@@ -50,7 +50,7 @@ install pdf-install
     ../../libs/date_time/xmldoc//date_time
     ../../libs/dll/doc//dll-doc 
     ../../libs/foreach/doc//standalone 
-    ../../libs/function/doc//function-doc
+    ../../libs/function/doc//function-doc 
 #    ../../libs/functional/overloaded_function/doc//doc
     ../../libs/fusion/doc//quickbook
     #../../libs/geometry/doc//geometry
@@ -240,7 +240,7 @@ install pool_install
     <format>pdf
     <name>pool.pdf
 ;
- 
+
 install multi_array_install
    :
         ../../libs/multi_array/doc/xml//multi_array-doc
@@ -250,7 +250,7 @@ install multi_array_install
     <format>pdf
     <name>multi_array.pdf
 ;
- 
+
 install factory_install
    :
       ../../libs/functional/factory/doc//standalone
@@ -280,7 +280,7 @@ install hash_install
     <format>pdf
     <name>functional_hash.pdf
 ;
- 
+
 install log_install
    :
     ../../libs/log/doc//log
@@ -290,15 +290,5 @@ install log_install
     <format>pdf
     <name>log.pdf
 ;
-
-
-
-
-
-
-
-
-
-
 
 
