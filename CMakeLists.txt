@@ -149,7 +149,7 @@ target_link_libraries(at_boost_log LINK_PUBLIC
   at_boost_filesystem
   at_boost_regex
 )
-target_include_directories(at_boost_log PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src/libs/log/src)
+target_include_directories(at_boost_log PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/libs/log/src)
 target_compile_definitions(at_boost_log
    PRIVATE BOOST_LOG_BUILDING_THE_LIB=1
   # PUBLIC BOOST_LOG_WITHOUT_EVENT_LOG=1
