@@ -738,3 +738,51 @@
 	url = git@github.com:boostorg/variant2.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
+[submodule "nowide"]
+	path = libs/nowide
+	url = ../nowide.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "docca"]
+	path = tools/docca
+	url = ../docca.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "cmake"]
+	path = tools/cmake
+	url = ../cmake.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "static_string"]
+	path = libs/static_string
+	url = ../static_string.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "stl_interfaces"]
+	path = libs/stl_interfaces
+	url = ../stl_interfaces.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "more"]
+	path = more
+	url = ../more.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "leaf"]
+	path = libs/leaf
+	url = ../leaf.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "json"]
+	path = libs/json
+	url = ../json.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "pfr"]
+	path = libs/pfr
+	url = ../pfr.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/disjoint_sets"]
+	path = libs/disjoint_sets
+	url = https://github.com/boostorg/disjoint_sets
