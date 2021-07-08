@@ -17,6 +17,7 @@ endfunction(at_boost_add_library)
 set(BOOST_THREAD_SOURCES
   libs/thread/src/future.cpp
   libs/thread/src/pthread/once.cpp
+  libs/thread/src/pthread/once_atomic.cpp
   libs/thread/src/pthread/thread.cpp
 )
 
@@ -35,7 +36,12 @@ target_compile_definitions(at_boost_thread
 ## ATOMIC
 ##
 set(BOOST_ATOMIC_SOURCES
+  libs/atomic/src/find_address_sse2.cpp
+  libs/atomic/src/find_address_sse41.cpp
   libs/atomic/src/lock_pool.cpp
+  libs/atomic/src/lock_pool_init1.ipp
+  libs/atomic/src/lock_pool_init256.ipp
+  libs/atomic/src/wait_ops_windows.cpp
 )
 
 at_boost_add_library(at_boost_atomic STATIC ${BOOST_ATOMIC_SOURCES})
@@ -55,12 +61,15 @@ at_boost_add_library(at_boost_random STATIC ${BOOST_RANDOM_SOURCES})
 ##
 set(BOOST_FILESYSTEM_SOURCES
   libs/filesystem/src/codecvt_error_category.cpp
+  libs/filesystem/src/directory.cpp
+  libs/filesystem/src/exception.cpp
   libs/filesystem/src/operations.cpp
   libs/filesystem/src/path.cpp
   libs/filesystem/src/path_traits.cpp
   libs/filesystem/src/portability.cpp
   libs/filesystem/src/unique_path.cpp
   libs/filesystem/src/utf8_codecvt_facet.cpp
+  libs/filesystem/src/windows_file_codecvt.cpp
 )
 at_boost_add_library(at_boost_filesystem ${BOOST_FILESYSTEM_SOURCES})
 set_target_properties(at_boost_filesystem
@@ -72,7 +81,6 @@ set_target_properties(at_boost_filesystem
 ##
 
 set(BOOST_REGEX_SOURCES
-  libs/regex/src/internals.hpp
   libs/regex/src/posix_api.cpp
   libs/regex/src/regex.cpp
   libs/regex/src/regex_debug.cpp
@@ -94,19 +102,24 @@ set(BOOST_LOG_SOURCES
   libs/log/src/attribute_value_set.cpp
   libs/log/src/code_conversion.cpp
   libs/log/src/core.cpp
+  libs/log/src/date_time_format_parser.cpp
   libs/log/src/record_ostream.cpp
   libs/log/src/severity_level.cpp
   libs/log/src/global_logger_storage.cpp
   libs/log/src/named_scope.cpp
+  libs/log/src/permissions.cpp
+  libs/log/src/record_ostream.cpp
   libs/log/src/process_name.cpp
   libs/log/src/process_id.cpp
   libs/log/src/thread_id.cpp
+  libs/log/src/thread_specific.cpp
   libs/log/src/timer.cpp
   libs/log/src/exceptions.cpp
   libs/log/src/default_attribute_names.cpp
   libs/log/src/default_sink.cpp
   libs/log/src/text_ostream_backend.cpp
   libs/log/src/text_file_backend.cpp
+  libs/log/src/text_multifile_backend.cpp
   libs/log/src/syslog_backend.cpp
   libs/log/src/thread_specific.cpp
   libs/log/src/once_block.cpp
@@ -119,6 +132,8 @@ set(BOOST_LOG_SOURCES
   libs/log/src/date_time_format_parser.cpp
   libs/log/src/named_scope_format_parser.cpp
   libs/log/src/dump.cpp
+  libs/log/src/dump_avx2.cpp
+  libs/log/src/dump_ssse3.cpp
 
   # boost_log_setup
   libs/log/src/setup/default_filter_factory.cpp
@@ -226,13 +241,14 @@ target_compile_definitions(at_boost_system
 set(BOOST_PROGRAM_OPTIONS_SOURCES
   libs/program_options/src/cmdline.cpp
   libs/program_options/src/config_file.cpp
+  libs/program_options/src/convert.cpp
   libs/program_options/src/options_description.cpp
   libs/program_options/src/parsers.cpp
   libs/program_options/src/variables_map.cpp
   libs/program_options/src/value_semantic.cpp
   libs/program_options/src/positional_options.cpp
   libs/program_options/src/utf8_codecvt_facet.cpp
-  libs/program_options/src/convert.cpp
+  libs/program_options/src/winmain.cpp
   libs/program_options/src/split.cpp
 )
 at_boost_add_library(at_boost_program_options ${BOOST_PROGRAM_OPTIONS_SOURCES})
