@@ -583,11 +583,6 @@
 	url = git@github.com:boostorg/throw_exception.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
-[submodule "winapi"]
-	path = libs/winapi
-	url = git@github.com:boostorg/winapi.git
-	fetchRecurseSubmodules = on-demand
-	branch = .
 [submodule "boostdep"]
 	path = tools/boostdep
 	url = git@github.com:boostorg/boostdep.git
