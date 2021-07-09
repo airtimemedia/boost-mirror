@@ -41,10 +41,10 @@ set(BOOST_ATOMIC_SOURCES
   libs/atomic/src/lock_pool.cpp
   libs/atomic/src/lock_pool_init1.ipp
   libs/atomic/src/lock_pool_init256.ipp
-  libs/atomic/src/wait_ops_windows.cpp
 )
 
 at_boost_add_library(at_boost_atomic STATIC ${BOOST_ATOMIC_SOURCES})
+target_include_directories(at_boost_atomic PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/libs/atomic/src)
 
 ##
 ## RANDOM
@@ -69,8 +69,8 @@ set(BOOST_FILESYSTEM_SOURCES
   libs/filesystem/src/portability.cpp
   libs/filesystem/src/unique_path.cpp
   libs/filesystem/src/utf8_codecvt_facet.cpp
-  libs/filesystem/src/windows_file_codecvt.cpp
 )
+
 at_boost_add_library(at_boost_filesystem ${BOOST_FILESYSTEM_SOURCES})
 set_target_properties(at_boost_filesystem
    PROPERTIES COMPILE_FLAGS "-Wno-unknown-warning-option -Wno-overloaded-virtual -Wno-undefined-bool-conversion -Wno-deprecated-declarations"
