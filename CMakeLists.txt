@@ -36,8 +36,6 @@ target_compile_definitions(at_boost_thread
 ## ATOMIC
 ##
 set(BOOST_ATOMIC_SOURCES
-  libs/atomic/src/find_address_sse2.cpp
-  libs/atomic/src/find_address_sse41.cpp
   libs/atomic/src/lock_pool.cpp
   libs/atomic/src/lock_pool_init1.ipp
   libs/atomic/src/lock_pool_init256.ipp
