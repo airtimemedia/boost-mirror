@@ -130,8 +130,6 @@ set(BOOST_LOG_SOURCES
   libs/log/src/date_time_format_parser.cpp
   libs/log/src/named_scope_format_parser.cpp
   libs/log/src/dump.cpp
-  libs/log/src/dump_avx2.cpp
-  libs/log/src/dump_ssse3.cpp
 
   # boost_log_setup
   libs/log/src/setup/default_filter_factory.cpp
