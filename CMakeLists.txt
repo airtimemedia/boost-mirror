@@ -170,7 +170,7 @@ set_target_properties(at_boost_log
 )
 
 if (NOT IOS AND NOT ANDROID)
-  set_property(TARGET at_boost_log APPEND PROPERTY COMPILE_FLAGS "-march=native")
+  set_property(TARGET at_boost_log APPEND_STRING PROPERTY COMPILE_FLAGS " -march=native")
 endif()
 
 ##
