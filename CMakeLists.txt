@@ -248,7 +248,6 @@ set(BOOST_PROGRAM_OPTIONS_SOURCES
   libs/program_options/src/value_semantic.cpp
   libs/program_options/src/positional_options.cpp
   libs/program_options/src/utf8_codecvt_facet.cpp
-  libs/program_options/src/winmain.cpp
   libs/program_options/src/split.cpp
 )
 at_boost_add_library(at_boost_program_options ${BOOST_PROGRAM_OPTIONS_SOURCES})
