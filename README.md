@@ -1,11 +1,8 @@
-# Boost C++ Libraries
-
-The Boost project provides free peer-reviewed portable C++ source libraries.
-
-We emphasize libraries that work well with the C++ Standard Library. Boost
-libraries are intended to be widely useful, and usable across a broad spectrum
-of applications. The Boost license encourages both commercial and non-commercial use
-and does not require attribution for binary use. 
-
-The project website is www.boost.org, where you can obtain more information and
-[download](https://www.boost.org/users/download/) the current release.
+# boost-mirror
+boost-mirror is airtime's fork of [boostorg/boost](https://github.com/boostorg/boost)..
+`libs/test` includes all submodules that airtime uses, including the following which are also forks:
++ asio
++ filesystem
++ test
++ thread
+See the [Confluence page](https://airtime.atlassian.net/l/c/BzaySXTi) for more info on boost at airtime.
