@@ -189,7 +189,7 @@ target_compile_definitions(at_boost_execution_monitor
 )
 
 set_target_properties(at_boost_execution_monitor
-   PROPERTIES COMPILE_FLAGS "-Wno-deprecated-declarations"
+   PROPERTIES COMPILE_FLAGS "-Wno-deprecated-declarations -Wno-format"
 )
 
 set(BOOST_UNITTEST_SOURCES
