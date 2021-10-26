@@ -169,7 +169,7 @@ set_target_properties(at_boost_log
    PROPERTIES COMPILE_FLAGS "-ftemplate-depth-1024 -Wno-deprecated-declarations"
 )
 
-if (NOT IOS AND NOT ANDROID)
+if (NOT IOS AND NOT ANDROID AND NOT OSX)
   set_property(TARGET at_boost_log APPEND_STRING PROPERTY COMPILE_FLAGS " -march=native")
 endif()
 
