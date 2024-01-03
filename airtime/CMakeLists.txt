@@ -81,6 +81,9 @@ set(libs
  signals2
  random
  program_options
+ heap
+ tti
+ uuid
  test
  )
 
