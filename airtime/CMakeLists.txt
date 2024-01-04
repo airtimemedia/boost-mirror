@@ -1,6 +1,22 @@
 cmake_minimum_required(VERSION 3.26.3)
 
 set(libs
+ # primary depenedency
+ filesystem
+ thread
+ atomic
+ regex
+ log
+ system
+ asio
+ signals2
+ circular_buffer
+ property_tree
+ program_options
+ heap
+ uuid
+ test
+ # secondary dependency
  assert
  config
  mp11
@@ -28,17 +44,12 @@ set(libs
  throw_exception
  variant2
  winapi
- system
  type_traits
  preprocessor
  utility
  align
- atomic
  predef
- filesystem
-
  unordered
- regex
  tokenizer
  range
  numeric/conversion
@@ -53,14 +64,10 @@ set(libs
  date_time
  container
  chrono
- thread
-
  serialization
  any
  format
  multi_index
- property_tree
-
  variant
  pool
  endian
@@ -70,25 +77,16 @@ set(libs
  coroutine
  random
  interprocess
- asio
  type_index
  proto
  phoenix
  parameter
- log
- circular_buffer
  sort
- signals2
  random
- program_options
- heap
  tti
- uuid
- test
  )
 
  add_definitions(-DBOOST_TEST_NO_MAIN)
-
 
 foreach(lib IN LISTS libs)
   add_subdirectory_once(${at_media_deps_dir}/boost/libs/${lib} ${CMAKE_BINARY_DIR}/boost/src/${lib})
