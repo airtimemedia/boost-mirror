@@ -1,0 +1,93 @@
+cmake_minimum_required(VERSION 3.26.3)
+
+set(libs
+ # primary depenedency
+ filesystem
+ thread
+ atomic
+ regex
+ log
+ system
+ asio
+ signals2
+ circular_buffer
+ property_tree
+ program_options
+ heap
+ uuid
+ test
+ # secondary dependency
+ assert
+ config
+ mp11
+ describe
+ container_hash
+ static_assert
+ core
+ preprocessor
+ detail
+ io
+ concept_check
+ typeof
+ conversion
+ mpl
+ function_types
+ tuple
+ bind
+ function
+ functional
+ fusion
+ optional
+ iterator
+ move
+ smart_ptr
+ throw_exception
+ variant2
+ winapi
+ type_traits
+ preprocessor
+ utility
+ align
+ predef
+ unordered
+ tokenizer
+ range
+ numeric/conversion
+ array
+ rational
+ ratio
+ integer
+ lexical_cast
+ algorithm
+ intrusive
+ exception
+ date_time
+ container
+ chrono
+ serialization
+ any
+ format
+ multi_index
+ variant
+ pool
+ endian
+ context
+ dynamic_bitset
+ spirit
+ coroutine
+ random
+ interprocess
+ type_index
+ proto
+ phoenix
+ parameter
+ sort
+ random
+ tti
+ )
+
+ add_definitions(-DBOOST_TEST_NO_MAIN)
+
+foreach(lib IN LISTS libs)
+  add_subdirectory_once(${at_media_deps_dir}/boost/libs/${lib} ${CMAKE_BINARY_DIR}/boost/src/${lib})
+endforeach()
