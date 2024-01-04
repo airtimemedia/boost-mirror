@@ -776,3 +776,8 @@
 	url = git@github.com:boostorg/cobalt.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
+[submodule "winapi"]
+	path = libs/winapi
+	url = git@github.com:boostorg/winapi.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
