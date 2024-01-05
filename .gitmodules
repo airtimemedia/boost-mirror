@@ -245,7 +245,7 @@
 	branch = .
 [submodule "property_tree"]
 	path = libs/property_tree
-	url = git@github.com:boostorg/property_tree.git
+	url = git@github.com:airtimemedia/property_tree.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "bimap"]

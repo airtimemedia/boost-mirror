@@ -82,7 +82,6 @@ set(libs
  phoenix
  parameter
  sort
- random
  tti
  )
 
