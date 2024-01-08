@@ -1,5 +1,3 @@
-cmake_minimum_required(VERSION 3.26.3)
-
 set(libs
  # primary depenedency
  filesystem
@@ -83,6 +81,7 @@ set(libs
  parameter
  sort
  tti
+ iostreams
  )
 
  add_definitions(-DBOOST_TEST_NO_MAIN)
