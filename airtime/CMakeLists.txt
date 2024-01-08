@@ -84,7 +84,9 @@ set(libs
  iostreams
  )
 
- add_definitions(-DBOOST_TEST_NO_MAIN)
+add_definitions(-DBOOST_TEST_NO_MAIN)
+# to compile simulator
+set(BOOST_IOSTREAMS_ENABLE_ZSTD OFF)
 
 foreach(lib IN LISTS libs)
   add_subdirectory_once(${at_media_deps_dir}/boost/libs/${lib} ${CMAKE_BINARY_DIR}/boost/src/${lib})
