@@ -70,6 +70,7 @@ set(BOOST_FILESYSTEM_SOURCES
 )
 
 at_boost_add_library(at_boost_filesystem ${BOOST_FILESYSTEM_SOURCES})
+target_compile_definitions(at_boost_filesystem PRIVATE BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF)
 set_target_properties(at_boost_filesystem
    PROPERTIES COMPILE_FLAGS "-Wno-unknown-warning-option -Wno-overloaded-virtual -Wno-undefined-bool-conversion -Wno-deprecated-declarations"
 )
