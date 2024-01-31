@@ -801,3 +801,8 @@
 	url = git@github.com:boostorg/stl_interfaces.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
+[submodule "libs/winapi"]
+	path = libs/winapi
+	url = git@github.com:boostorg/winapi.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
