@@ -777,3 +777,18 @@
 	fetchRecurseSubmodules = on-demand
 	branch = .
 
+[submodule "libs/leaf"]
+	path = libs/leaf
+	url = git@github.com:boostorg/leaf.git
+[submodule "libs/nowide"]
+	path = libs/nowide
+	url = git@github.com:boostorg/nowide.git
+[submodule "libs/pfr"]
+	path = libs/pfr
+	url = git@github.com:boostorg/pfr.git
+[submodule "libs/static_string"]
+	path = libs/static_string
+	url = git@github.com:boostorg/static_string.git
+[submodule "libs/stl_interfaces"]
+	path = libs/stl_interfaces
+	url = git@github.com:boostorg/stl_interfaces.git
