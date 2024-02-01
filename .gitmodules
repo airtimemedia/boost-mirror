@@ -776,4 +776,33 @@
 	url = git@github.com:boostorg/cobalt.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
-
+[submodule "libs/leaf"]
+	path = libs/leaf
+	url = git@github.com:boostorg/leaf.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/nowide"]
+	path = libs/nowide
+	url = git@github.com:boostorg/nowide.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/pfr"]
+	path = libs/pfr
+	url = git@github.com:boostorg/pfr.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/static_string"]
+	path = libs/static_string
+	url = git@github.com:boostorg/static_string.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/stl_interfaces"]
+	path = libs/stl_interfaces
+	url = git@github.com:boostorg/stl_interfaces.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "libs/winapi"]
+	path = libs/winapi
+	url = git@github.com:boostorg/winapi.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
