@@ -256,3 +256,43 @@ set_target_properties(at_boost_program_options
    PROPERTIES COMPILE_FLAGS "-Wno-overloaded-virtual"
 )
 
+##
+## URLS
+##
+set(BOOST_URL_SOURCES
+  libs/url/src/authority_view.cpp
+  libs/url/src/decode_view.cpp
+  libs/url/src/encoding_opts.cpp
+  libs/url/src/error.cpp
+  libs/url/src/ipv4_address.cpp
+  libs/url/src/ipv6_address.cpp
+  libs/url/src/params_base.cpp
+  libs/url/src/params_encoded_base.cpp
+  libs/url/src/params_encoded_ref.cpp
+  libs/url/src/params_encoded_view.cpp
+  libs/url/src/params_ref.cpp
+  libs/url/src/params_view.cpp
+  libs/url/src/parse_path.cpp
+  libs/url/src/parse_query.cpp
+  libs/url/src/parse.cpp
+  libs/url/src/pct_string_view.cpp
+  libs/url/src/scheme.cpp
+  libs/url/src/segments_base.cpp
+  libs/url/src/segments_encoded_base.cpp
+  libs/url/src/segments_encoded_ref.cpp
+  libs/url/src/segments_encoded_view.cpp
+  libs/url/src/segments_ref.cpp
+  libs/url/src/segments_view.cpp
+  libs/url/src/static_url.cpp
+  libs/url/src/url_base.cpp
+  libs/url/src/url_view_base.cpp
+  libs/url/src/url_view.cpp
+  libs/url/src/url.cpp
+)
+
+at_boost_add_library(at_boost_url ${BOOST_URL_SOURCES})
+
+target_compile_definitions(at_boost_url
+  PRIVATE BOOST_SYSTEM_STATIC_LINK=1
+)
+
